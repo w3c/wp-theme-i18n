@@ -49,7 +49,7 @@ Read also about opportunities to participate and fund work via the new Sponsorsh
 
 <p class="quickLinkLink"><a href="https://www.w3.org/TR/typography/">Language Enablement Index</a></p>
 
-<p class="quickLinkLink"><a  href="https://github.com/w3c/i18n-activity/projects/3">Gap-analysis Pipeline</a></p>
+<p class="quickLinkLink"><a  href="https://github.com/orgs/w3c/projects/95/views/1">Gap-analysis Pipeline</a></p>
 
 <p class="quickLinkLink"><a  href="https://w3c.github.io/type-samples/">Type samples</a></p>
 
@@ -75,7 +75,7 @@ Read also about opportunities to participate and fund work via the new Sponsorsh
 
 <p class="quickLinkLink"><a href="https://www.w3.org/Guide/documentreview/">Request a review</a></p>
 
-<p class="quickLinkLink"><a href="https://github.com/w3c/i18n-request/projects/1">Review radar</a></p>
+<p class="quickLinkLink"><a href="https://github.com/orgs/w3c/projects/91/views/1">Review radar</a></p>
 
 <p class="quickLinkLink"><a href="https://w3.org/International/i18n-activity/reviews">Issue tracker</a></p>
 
