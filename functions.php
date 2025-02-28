@@ -69,7 +69,6 @@ if ( ! function_exists( 'twentyten_setup' ) ):
  * @since Twenty Ten 1.0
  */
 function twentyten_setup() {
-    wp_enqueue_style( 'style', get_stylesheet_uri() );
     
 	// This theme styles the visual editor with editor-style.css to match the theme style.
 	add_editor_style();
@@ -503,3 +502,10 @@ function twentyten_posted_in() {
 	);
 }
 endif;
+
+function load_i18n_style() {
+    wp_enqueue_style('style', get_stylesheet_uri());
+}
+
+add_action('wp_head', 'load_i18n_style');
+
