@@ -92,6 +92,7 @@ body {
 a {
     color: teal;
     text-decoration-color: white;
+    text-decoration: none;
 }
 
 a:visited {
