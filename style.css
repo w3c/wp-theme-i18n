@@ -463,7 +463,8 @@ div.directory p.preblog {
 
 #sitelinks {
     margin-top: 0.5em;
-}
+    margin-inline-start: 1rem;
+    }
 
 .slogan {
     color: #000066;
