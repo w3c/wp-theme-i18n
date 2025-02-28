@@ -34,8 +34,6 @@
 <meta name="description" content="Home page of W3C&#039;s Web Internationalization --resources for increasing accessibility of the Web for worldwide audiences." />
 <meta name="keywords" content="i18n, Internationalisation, Internationalization, Localisation, Localization, Translation" />
 
-<script type="text/javascript" src="/International/javascript/expand-collapse-content.js"></script>
-
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
