@@ -90,43 +90,8 @@ elseif (is_single())
 </div>
 
 <div class="directory rightCol">
-<div id=n_groups class="tocbox">
-<h2>Groups/repos</h2>
-  <p><a href="http://w3c.github.io/i18n-activity/i18n-wg/"><img src="/International/icons/right.gif" alt="" /> i18n WG</a></p>
-	  <p><a href="http://w3c.github.io/i18n-activity/i18n-ig/"><img src="/International/icons/right.gif" alt="" /> i18n Interest Group</a></p>
-	  <p><a href="https://w3c.github.io/afrlreq/home"><img src="/International/icons/right.gif" alt="" /> African <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/amlreq/home"><img src="/International/icons/right.gif" alt="" /> Americas <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/alreq/home"><img src="/International/icons/right.gif" alt="" /> Arabic <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/clreq/home"><img src="/International/icons/right.gif" alt="" /> Chinese <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/elreq/home"><img src="/International/icons/right.gif" alt="" /> Ethiopic <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/eurlreq/home"><img src="/International/icons/right.gif" alt="" /> European <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/hlreq/home"><img src="/International/icons/right.gif" alt="" /> Hebrew <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/iip/home"><img src="/International/icons/right.gif" alt="" /> India <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/jlreq/home"><img src="/International/icons/right.gif" alt="" /> Japanese <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/klreq/home"><img src="/International/icons/right.gif" alt="" /> Korean <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/mlreq/home"><img src="/International/icons/right.gif" alt="" /> Mongolian <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/sealreq/home"><img src="/International/icons/right.gif" alt="" /> SE Asian <abbr title="Language Enablement">LE</abbr></a></p>
-	  <p><a href="https://w3c.github.io/tlreq/home"><img src="/International/icons/right.gif" alt="" /> Tibetan <abbr title="Language Enablement">LE</abbr></a></p>
-  </div>
-  
 
-
-
-<div class="tocbox">
-<h2 id="Participation">  Participate!</h2>
-
-<p><a href="/International/i18n-drafts/nav/participate"><img src="/International/icons/right.gif" alt=""> Join a Group</a></p>
-
-<p><a href="/International/i18n-drafts/nav/follow"><img src="/International/icons/right.gif" alt="" /> Follow the work</a></p>
-
-<p><a href="/International/i18n-drafts/pages/translation.html"><img src="/International/icons/right.gif" alt="" /> Translate a specification or page</a></p>
-
-<p><a href="/International/sponsorship/"><img src="/International/icons/right.gif" alt=""> International&shy;ization Sponsorship Program</a></p>
-</div>
-
-
-
-
+<?php get_sidebar(); ?>
 
 
 <div class="tocbox" style="padding-bottom: 10px;">
@@ -152,35 +117,15 @@ elseif (is_single())
 							<?php get_search_form(); ?>
 						</div>
 					</div>
-                    
+
   </div>
-
-
-
-
-
-<div class="tocbox" style="padding-bottom: 10px;">
-	<h2>I18n sponsors</h2>
-		<div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
-        <a href="https://www.aplab.jp/"><img alt="APL, Japan" title="Advanced Publishing Lab (APL)" src="/International/icons/sponsor_logos/apl.png" style="height: 4em;"></a>
-        <a href="https://www.paciellogroup.com/"><img alt="The Paciello Group" title="The Paciello Group" src="/International/icons/sponsor_logos/tpg-logo.png" style="height: 4em;"></a>
-        <a href="http://www.monotype.com/"><img alt="Monotype" title="Monotype" src="/International/icons/sponsor_logos/monotype_logo.png" style="margin: 1em 0; vertical-align: middle; width: 6em;"></a>
-        <a href="http://www.alibabagroup.com/en/global/home"><img alt="Alibaba" title="Alibaba" src="/International/icons/sponsor_logos/alibaba-logo.png" style="height: 4em; "></a>
-        </div>
-</div>
-
-
 
 
 
 <!--h2>Search for news</h2>
   	< ?php get_search_form(); ? -->
-							
+
 	<!--h2>Admin</h2-->
-	<ul style="font-size: 80%; margin-top: 3em;">
-		<?php wp_register(); ?>
-		<li><?php wp_loginout(); ?></li>
-        <li>SMedia icons by <a target="_blank" href="https://icons8.com">Icons8</a></li>
-	</ul>
+
 </div>
 
