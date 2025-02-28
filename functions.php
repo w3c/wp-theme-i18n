@@ -505,7 +505,7 @@ endif;
 
 function load_i18n_assets() {
     wp_enqueue_style('style', get_stylesheet_uri());
-    w_enqueu_script('expand-collapse-content', 'expand-collapse-content.js');
+    wp_enqueue_script('expand-collapse-content', 'expand-collapse-content.js');
 }
 
 add_action('wp_head', 'load_i18n_assets');
