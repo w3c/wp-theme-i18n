@@ -52,7 +52,7 @@
 ?>
 </head>
 
-<?php 
+<?php
 
 if (is_home())
 	$id = "home";
@@ -63,8 +63,8 @@ elseif (is_single())
 
 <body <?php echo isset($id) ? 'id="'.$id.'"' : "" ?>>
 
-<div id="search"> 
-		<div> 
+<div id="search">
+		<div>
 			<form method="get" action="/International/site-search.php" enctype="application/x-www-form-urlencoded">
 				<div id="searchSite" class="topRight">I18n site search:<br /><input name="q" type="text" size="15" id="searchField" accesskey="E" maxlength="255" /></div>
 			</form>
@@ -75,7 +75,7 @@ elseif (is_single())
 		</div>
 </div>
 
-<div id="n_W3Clogo"><a href="http://www.w3.org/"><img src="/Icons/w3c_home" alt="W3C" style="border:0; height:48px; width:72px;"/></a></div>
+<div id="n_W3Clogo"><a href="http://www.w3.org/"><img src="https://www.w3.org/assets/logos/w3c-2025/svg/w3c.svg" alt="W3C" style="border:0; height:48px; width:72px;"/></a></div>
 <div id="n_banner"><a href="/International/"><p id="n_sitename">Internationalization (i18n)</p>
 	<p id="n_subtitle">Making the World Wide Web worldwide!</p></a></div>
 <br style="clear:both;" />
