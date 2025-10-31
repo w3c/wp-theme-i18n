@@ -75,7 +75,7 @@ elseif (is_single())
 		</div>
 </div>
 
-<div id="n_W3Clogo"><a href="http://www.w3.org/"><img alt="W3C" id="logo" src="https://www.w3.org/assets/logos/w3c-2025/svg/margins/w3c-letters-bg-white.svg"></a></div>
+<div id="n_W3Clogo"><a href="http://www.w3.org/"><img alt="W3C" src="https://www.w3.org/assets/logos/w3c-2025/svg/margins/w3c-letters-bg-white.svg" style="border:0; height:48px; width:72px;"></a></div>
 <div id="n_banner"><a href="/International/"><p id="n_sitename">Internationalization (i18n)</p>
 	<p id="n_subtitle">Making the World Wide Web worldwide!</p></a></div>
 <br style="clear:both;" />
