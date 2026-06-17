@@ -34,7 +34,7 @@
 
 		<?php if ( in_category('highlight') ) : $i++; ?>
 		<p><?php $iso_date = get_the_date( "Y-m-d" ); ?>
-			<img src="/International/icons/right.gif" height="11" width="17" alt="Stop press" title="Stop press" />
+			<img src="https://www.w3.org/International/icons/right.gif" height="11" width="17" alt="Stop press" title="Stop press" />
 			<span><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></span> 
 			<time datetime=<?php echo $iso_date; ?> class="date"><?php the_date() ?></time>
 		</p>

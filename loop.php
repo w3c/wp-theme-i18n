@@ -47,7 +47,7 @@
 	 */ ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
-		<div class="pubdata"><?php $pfx_date = get_the_date( "Y-m-d" ); ?> 
+		<div class="pubdata"><?php $pfx_date = get_the_date( "Y-m-d" ); ?>
 			<div class="date"><time datetime=<?php echo $pfx_date; ?>><?php the_date(); ?></time></div>
 		</div>
 
@@ -55,12 +55,12 @@
 			<h3>
 				<a href="<?php the_permalink() ?>" title="Permanent link to full entry"><?php the_title(); ?></a>
 			</h3>
-			<div class="description"> 
+			<div class="description">
 				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
 				<div class="admin">
 					<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( '1 Comment', 'twentyten' ), __( '% Comments', 'twentyten' ) ); ?></span>
 					<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
-				</div>			
+				</div>
 				<?php $tags_list = get_the_tag_list( '', ', ' );
 					if ( $tags_list ): ?>
 					<div class="cats">
@@ -70,9 +70,9 @@
 				<?php if ( count( get_the_category() ) ) : ?><div class="cats">Categories: <strong><?php print get_the_category_list( ', ' ) ?></strong></div><?php endif; ?>
 			</div>
 		</div>
-		
-			<?php /* TODO: add link on author name 
-			
+
+			<?php /* TODO: add link on author name
+
 			<div class="metadata">
 				<p>
 					By <em class="author"><?php the_author() ?>,</em> <span class="updated"><?php the_date() ?></span>
@@ -89,7 +89,7 @@
 					<?php endif; ?>
 				</p>
 			</div>
-			
+
 			*/ ?>
 
 	<?php //if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
@@ -97,19 +97,19 @@
 	<?php //else : ?>
 			<?php //the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
 			<?php //wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
-	<?php// endif; ?>
+	<?php // endif; ?>
 
-			
+
 				<!--<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( '1 Comment', 'twentyten' ), __( '% Comments', 'twentyten' ) ); ?></span>-->
 				<!--<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>-->
-			
+
 
 		<?php //comments_template( '', true ); ?>
 
 <?php endwhile; // End the loop. Whew. ?>
 
 <?php /* Display navigation to next/previous pages when applicable */ ?>
-	
+
 <div class="previousnext">
 	<?php if (  $wp_query->max_num_pages > 1 ) : ?>
 	<?php previous_posts_link() ?> :: <?php next_posts_link() ?>
