@@ -17,10 +17,10 @@
 	</div><!-- main -->
 </div><!-- content -->
 
-<script type="text/javascript">
+<script>
 	if (document.getElementById) {
-		openIMG='/International/icons/open-thin.gif'; 
-		closeIMG='/International/icons/close-thin.gif';
+		openIMG='https://www.w3.org/International/icons/open-thin.gif'; 
+		closeIMG='https://www.w3.org/International/icons/close-thin.gif';
 		initialhide('DIV', 'toc1');
 	}
 </script>

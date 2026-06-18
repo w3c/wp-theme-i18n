@@ -71,7 +71,7 @@ elseif (is_single())
 		</div>
 		<div>
 			<a href="/International/i18n-drafts/nav/follow#feeds"><span class="topRight">&nbsp;RSS
-			Feeds&nbsp;</span><img src="/International/icons/rss.gif" alt="RSS feeds" width="16" height="16" /></a>
+			Feeds&nbsp;</span><img src="https://www.w3.org/International/icons/rss.gif" alt="RSS feeds" width="16" height="16" /></a>
 		</div>
 </div>
 

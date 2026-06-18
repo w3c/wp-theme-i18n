@@ -69,7 +69,7 @@ if ( ! function_exists( 'twentyten_setup' ) ):
  * @since Twenty Ten 1.0
  */
 function twentyten_setup() {
-    
+
 	// This theme styles the visual editor with editor-style.css to match the theme style.
 	add_editor_style();
 
@@ -93,9 +93,6 @@ function twentyten_setup() {
 		'primary' => __( 'Primary Navigation', 'twentyten' ),
 	) );
 
-	// This theme allows users to set a custom background
-	add_custom_background();
-
 	// Your changeable header business starts here
 	define( 'HEADER_TEXTCOLOR', '' );
 	// No CSS, just IMG call. The %s is a placeholder for the theme template directory URI.
@@ -113,10 +110,6 @@ function twentyten_setup() {
 
 	// Don't support text inside the header image.
 	define( 'NO_HEADER_TEXT', true );
-
-	// Add a way for the custom header to be styled in the admin panel that controls
-	// custom headers. See twentyten_admin_header_style(), below.
-	add_custom_image_header( '', 'twentyten_admin_header_style' );
 
 	// ... and thus ends the changeable header business.
 
@@ -304,12 +297,12 @@ function twentyten_comment( $comment, $args, $depth ) {
 			<?php echo get_avatar( $comment, 40 ); ?>
 			<?php printf(sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 			</div><!-- .comment-author .vcard -->
-		
+
 			<?php if ( $comment->comment_approved == '0' ) : ?>
 				<em><?php _e( 'Your comment is awaiting moderation.', 'twentyten' ); ?></em>
 				<br />
 			<?php endif; ?>
-	
+
 			<div class="comment-meta commentmetadata">
 				<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>"><span class="comment-time">
 				<?php
